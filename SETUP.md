@@ -28,12 +28,19 @@ Japanese sword catalog digitization and translation project. Parsing Juyo Zufu v
 - CLI authenticated and ready
 - (Site will be created when we build frontend)
 
+### ✅ OpenRouter
+- **API Key:** Configured and verified
+- **Available Models:** GPT-5.2, Claude, DeepSeek V3.2, Vision models
+- **Use Case:** AI translation (Japanese → English) with vision capabilities
+- **Docs:** https://openrouter.ai/docs
+
 ## Environment Variables (.env)
 All tokens and keys are stored securely in `.env` (gitignored):
 - Supabase project keys (URL, anon, service_role)
 - Supabase management token
 - Netlify auth token
 - GitHub personal access token
+- OpenRouter API key
 
 ## CLI Tools Installed
 - ✅ Supabase CLI (v2.65.5)
