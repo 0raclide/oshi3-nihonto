@@ -1,0 +1,17 @@
+{
+  "name": "oshi3-nihonto",
+  "version": "1.0.0",
+  "description": "Japanese sword catalog digitization and translation project",
+  "main": "extract.js",
+  "scripts": {
+    "extract": "node extract.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nihonto", "japanese-swords", "ocr", "translation"],
+  "author": "Christopher Hill",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  }
+}

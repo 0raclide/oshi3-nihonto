@@ -8,3 +8,5 @@ node_modules/
 out/
 dist/
 build/
+extracted/
+package-lock.json
